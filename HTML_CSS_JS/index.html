@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction - Employability Churn</title>
+    <link rel="stylesheet" href="s1.css">
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+    <h1>Employability Churn Prediction</h1>
+    
+        <label for="satisfaction_level" class="textt">Satisfaction Level</label>
+        <input type="number" id="satisfaction_level" name="satisfaction_level" required placeholder="Enter Satisfaction Level (0-1)">
+
+
+        <label for="last_evaluation" class="textt">Last Evaluation</label>
+        <input type="number" id="last_evaluation" name="last_evaluation" required placeholder="Enter Last Evaluation (0-1)">
+
+        <label for="number_project" class="textt">Number of Projects</label>
+        <input type="number" id="number_project" name="number_project" required placeholder="Enter Number of Projects (0-100)">
+
+        <label for="average_monthly_hours" class="textt">Average Monthly Hours</label>
+        <input type="number" id="average_monthly_hours" name="average_monthly_hours" required placeholder="Enter Average Monthly Hours (0-100)">
+
+        <label for="time_spend_company" class="textt">Time Spent in company</label>
+        <input type="number" id="time_spend_company" name="time_spend_company" required placeholder="Enter Time Spent in Company (0-100)">
+        
+        <label for="work_accident" class="textt">Work Accident</label>
+        <input type="number" id="work_accident" name="work_accident" required placeholder="Enter Work Accident (0-100)">
+
+        <label for="promotion_last_5years" class="textt">Promotion in the Past 5 years</label>
+        <input type="number" id="promotion_last_5years" name="promotion_last_5years" required placeholder="Enter the values (0-10)">
+
+        <label for="departments" class="textt">Department</label>
+        <select id="departments" name="departments">
+            <option value="" disabled selected>Choose an option</option>
+            <option value="sales">Sales</option>
+            <option value="tech">Tech</option>
+            <option value="hr">HR</option>
+        </select>
+        
+        <label for="salary" class="textt">Salary</label>
+        <select id="salary" name="departments">
+            <option value="" disabled selected>Choose an option</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <p></p>
+        <button type="submit" id="testForm" onclick="makePrediction()">Predict Churn</button>
+    </form>
+    
+    <div id="prediction-container">
+        <h1>Prediction:</h1>
+        <p id="prediction-text"></p>
+    </div>
+            
+</body>
+
+</html>

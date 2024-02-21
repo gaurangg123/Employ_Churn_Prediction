@@ -1,0 +1,109 @@
+/* Basic styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f3f3f3;
+    /* Light background */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4caf50;
+    /* Google green */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.textt{
+    color: black;
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    color: #666;
+    /* Lighter text color */
+}
+
+input[type="number"],
+select {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+input[type="number"]:hover,
+select:hover {
+    border-color: #888;
+    transition: border-color 0.2s ease-in-out;
+    /* Smoother hover effect */
+}
+
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #007bff;
+    /* Google blue */
+    transition: border-color 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    /* Google blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.2s ease-in-out;
+    /* Smoother hover effect */
+}
+
+button:hover {
+    background-color: #0062cc;
+    /* Darker blue on hover */
+}
+
+/* Dropdown arrow alignment */
+select {
+    padding-right: 25px;
+    /* Adjust based on arrow icon size */
+}
+
+select::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #ccc;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    /* Adjust based on desired spacing */
+    transform: translateY(-50%);
+}
