@@ -34,10 +34,14 @@ pip install numpy
 
 - first run the model.py file.
 - wait until this comes up....
+  <b>
   ![image](https://github.com/gaurangg123/Employ_Churn_Prediction/assets/98259190/1390f541-91ee-4ac4-a654-414e609af261)
+  </b>
 - then run the app.py file.
 - again wait until this comes up....
+  <b>
   ![image](https://github.com/gaurangg123/Employ_Churn_Prediction/assets/98259190/e2c59c19-263b-491b-ade4-f0ad0db7ef85)
+  </b>
 - Go to the folder "HTML_CSS_JS" and click on index.html file.
 - Press "Alt + L + O" keys altogether.
 - The model is now live. 
