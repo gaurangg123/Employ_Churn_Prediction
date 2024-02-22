@@ -58,7 +58,7 @@ pip install numpy
 1. Identify at risk customers.
 2. Environment Satisfaction; Gender; Job Involvement; Job Level; Job Role; Job Satisfaction; Marital Status; Overtime; Performance Rating.
 3. Frequency of promotions in the last 5 years.
-4. More features can be available on this file -->
+4. More features can be available on this file --> <a href="analysis.ipynb">More Analysis & Features</a>
 
 ## License 
 
