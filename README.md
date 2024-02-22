@@ -4,7 +4,7 @@ Description of your project goes here. Provide a brief overview of what the proj
 
 ## Table of Contents
 - [Installation](#installation)
-- [Start](#usage)
+- [Start](#start)
 - [Features](#features)
 - [License](#license)
 
@@ -34,10 +34,12 @@ pip install numpy
 
 1. Run the model.py file.
    <br>
+   <br>
   ![image](https://github.com/gaurangg123/Employ_Churn_Prediction/assets/98259190/1390f541-91ee-4ac4-a654-414e609af261)
    <br>
    
 3. Run the app.py file.
+   <br>
    <br>
   ![image](https://github.com/gaurangg123/Employ_Churn_Prediction/assets/98259190/e2c59c19-263b-491b-ade4-f0ad0db7ef85)
    <br>
@@ -46,4 +48,8 @@ pip install numpy
 
 5. Press "Alt + L + O" keys altogether.
 
-6. The model is now live. 
+6. The model is now live.
+   <br>
+   <br>
+   ![image](https://github.com/gaurangg123/Employ_Churn_Prediction/assets/98259190/2b86cffd-b2d9-4940-9c10-7a39bb4b857f)
+
