@@ -4,10 +4,8 @@ Description of your project goes here. Provide a brief overview of what the proj
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
+- [Start](#usage)
 - [Features](#features)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -16,6 +14,21 @@ Description of your project goes here. Provide a brief overview of what the proj
 
 ```bash
 git clone https://github.com/gaurangg123/Employ_Churn_Prediction.git
-cd Employ_Churn_Prediction.git
-install all the libraries mentioned in the model.py code file.
-bash```
+```
+
+2. Extract all the files.
+   
+3. Install all  necessary libraries using terminal and put the commands
+
+```bash
+pip install pandas
+pip install tensorflow
+pip install numpy
+```
+
+## Start 
+
+```bash
+- first run the model.py file.
+- when this comes up....![image](https://github.com/gaurangg123/Employ_Churn_Prediction/assets/98259190/1390f541-91ee-4ac4-a654-414e609af261)
+- then run the app.py file.
