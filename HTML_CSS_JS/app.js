@@ -9,19 +9,18 @@ function makePrediction() {
     const departments = document.getElementById('departments').value; // No need to convert
     const salary = document.getElementById('salary').value; // No need to convert
 
-    const data = {
+    const data = [{        
         satisfaction_level: satisfaction_level,
         last_evaluation: last_evaluation,
         number_project: number_project,
-        average_monthly_hours: average_monthly_hours,
         time_spend_company: time_spend_company,
         work_accident: work_accident,
+        average_monthly_hours: average_monthly_hours,
         promotion_last_5years: promotion_last_5years,
+        salary: salary, 
         departments: departments,
-        salary: salary
-    };
-    console.log(data);
-
+    }];
+    
     fetch('http://127.0.0.1:12345/predict', {
         method: 'POST',
         headers: {
@@ -32,9 +31,17 @@ function makePrediction() {
     })
     .then(response => response.json())
     .then(data => {
-        const prediction = parseInt(data.prediction);
-        console.log(prediction);
-        document.getElementById('prediction-text').textContent = prediction;
+        if (data.prediction !== undefined) {
+            // Remove square brackets and convert to integer
+            const prediction = parseInt(data.prediction.replace(/[\[\]]/g, ''));
+            if(prediction > 0) {
+                document.getElementById('prediction-text').textContent = 'The employee will leave the company';
+            } else {
+                document.getElementById('prediction-text').textContent = 'The employee will not leave the company';
+            }
+        } else {
+            console.error('Prediction data is undefined');
+        }
     })
     .catch(error => {
         console.error('Error:', error);

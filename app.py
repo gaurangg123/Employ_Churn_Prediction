@@ -29,7 +29,7 @@ def predict():
             query = pd.get_dummies(pd.DataFrame(json_))
             query = query.reindex(columns=model_columns, fill_value=0)
 
-            prediction = list(clf.predict(query))
+            prediction = clf.predict(query)
 
             return jsonify({'prediction': str(prediction)})
 
@@ -46,4 +46,4 @@ if __name__ == '__main__':
         print(f"Error reading port from command-line arguments: {e}")
         port = 12345  # If you don't provide any port, the port will be set to 12345
 
-    app.run(host = '127.0.0.1', port=12345)
+    app.run(host = '127.0.0.1', port=12345,debug=True)
