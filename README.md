@@ -6,7 +6,6 @@ Description of your project goes here. Provide a brief overview of what the proj
 - [Installation](#installation)
 - [Start](#start)
 - [Features](#features)
-- [License](#license)
 
 ## Installation
 
@@ -59,8 +58,3 @@ pip install numpy
 2. Environment Satisfaction; Gender; Job Involvement; Job Level; Job Role; Job Satisfaction; Marital Status; Overtime; Performance Rating.
 3. Frequency of promotions in the last 5 years.
 4. More features can be available on this file --> <a href="analysis.ipynb">More Analysis & Features</a>
-
-## License 
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
