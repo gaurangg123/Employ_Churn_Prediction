@@ -53,3 +53,14 @@ pip install numpy
    <br>
    ![image](https://github.com/gaurangg123/Employ_Churn_Prediction/assets/98259190/2b86cffd-b2d9-4940-9c10-7a39bb4b857f)
 
+## Features
+
+1. Identify at risk customers.
+2. Environment Satisfaction; Gender; Job Involvement; Job Level; Job Role; Job Satisfaction; Marital Status; Overtime; Performance Rating.
+3. Frequency of promotions in the last 5 years.
+4. More features can be available on this file -->
+
+## License 
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
