@@ -20,6 +20,12 @@ The project follows the typical machine learning pipeline:
 6. **Hyperparameter Tuning**: Fine-tune the chosen model's hyperparameters to optimize its performance further.
 7. **Prediction and Deployment**: Deploy the final model to predict employee churn on new data.
 
+8. The model is now live.
+   <br>
+   <br>
+   ![image](https://github.com/gaurangg123/Employ_Churn_Prediction/assets/98259190/2b86cffd-b2d9-4940-9c10-7a39bb4b857f)
+
+
 ## Results
 The results of the employee churn prediction model indicate its effectiveness in identifying potential churners within the organization. Key findings and insights gained from the analysis are documented in the project's report.
 
